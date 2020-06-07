@@ -1,14 +1,5 @@
-ADD_SUBDIRECTORY(helloworld)
-ADD_SUBDIRECTORY(exposingclasses)
-ADD_SUBDIRECTORY(constructors)
-ADD_SUBDIRECTORY(classmembers)
-ADD_SUBDIRECTORY(inheritance)
-ADD_SUBDIRECTORY(virtualfunctionsinpython)
-ADD_SUBDIRECTORY(operators)
 ADD_SUBDIRECTORY(callpolicies)
 ADD_SUBDIRECTORY(overloading)
-ADD_SUBDIRECTORY(iterators)
-ADD_SUBDIRECTORY(exceptions)
 
 # copy all the py modules to dist folder
 file(RELATIVE_PATH DST_DIR ${SRC_DIR} "${CMAKE_CURRENT_SOURCE_DIR}")
